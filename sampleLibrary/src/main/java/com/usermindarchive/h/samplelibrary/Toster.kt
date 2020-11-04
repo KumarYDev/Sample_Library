@@ -5,7 +5,7 @@ import android.widget.Toast
 
 class Toster {
 
-    fun success(c: Context, message: String) {
+    public fun success(c: Context, message: String) {
         Toast.makeText(c, message, Toast.LENGTH_LONG).show()
     }
 }
